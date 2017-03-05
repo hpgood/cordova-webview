@@ -1,0 +1,13 @@
+{
+  "name": "cordova_webview",
+  "url": "",
+  "license": "MIT",
+  "tags": [],
+  "description": "openfl extension,using webview with cordova",
+  "version": "1.0.0",
+  "releasenote": "",
+  "contributors": [""],
+  "dependencies": {
+
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<ndll name="cordova_webview" />
+	<assets path="www" include="*" />
+	
+	<!-- Use the following for an Android Java extension, not needed otherwise -->
+	
+	<dependency name="cordova_webview" path="dependencies/android" if="android" />
+	<android extension="org.haxe.h5.CordovaExtension" />
+	
+</project>
