@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.haxe.h5" >
+	<application android:debuggable="::DEBUG::">
+	 <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" 
+			   android:label="@string/activity_name" android:launchMode="singleTop" 
+			   android:name="org.haxe.h5.CordovaWebViewPlus" 
+			   android:theme="@android:style/Theme.DeviceDefault.NoActionBar" 
+			   android:windowSoftInputMode="adjustResize">
+     </activity>
+	</application>
+</manifest>
